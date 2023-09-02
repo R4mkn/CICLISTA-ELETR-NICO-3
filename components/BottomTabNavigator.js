@@ -18,12 +18,12 @@ export default class BottomTabNavigator extends Component {
             tabBarIcon: ({ focused, color, size }) => {
               let iconName;
 
-
-              if (route.name = "Alugue uma Bicicleta") {
+              if (route === "Alugue uma Bicicleta") {
                iconName = "bicycle";
-              } else if (route.name = "Histórico de Locações") {
+              } else if (route === "Histórico de Locações") {
                 iconName = "time";
               }
+
 
               return (
                 <Ionicons
